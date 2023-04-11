@@ -24,18 +24,26 @@ nav ul{
     justify-content: space-between;
 }
 
+.menu h1{
+    color: #006D75;
+}
+
+main{
+    margin-top: 60px;
+}
+
 #calculator{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: 2px solid #006D75;
     margin: 20px 300px;
-    margin-bottom: 104px;
     padding: 50px;
     border-radius: 30px;
 }
 
 h2{
     text-align: center;
+    color: #006D75;
 }
 
 #weight{
@@ -55,11 +63,29 @@ h2{
 }
 
 button{
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #36CFC9;
     width: 175px;
     height: 25px;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: #28A19C;
+}
+
+#calculate{
+    margin-left: 90px;
+}
+
+#output{
+    text-align: center;
+}
+
 footer{
+    margin-top: 64px;
     padding-left: 59px;
     padding-right: 31.31px;
     display: flex;
